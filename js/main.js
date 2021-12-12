@@ -18,3 +18,11 @@ const swiper = new Swiper('.swiper', {
         el: '.swiper-scrollbar',
     },
 });
+
+
+const menu = document.querySelector('.menu__list')
+const button = document.querySelector(".menu__btn")
+
+button.addEventListener('click', function () {
+    menu.classList.toggle('active')
+})

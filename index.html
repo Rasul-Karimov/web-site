@@ -17,6 +17,11 @@
             <div class="header__inner">
                 <div class="header__top">
                     <nav class="menu">
+                        <button class="menu__btn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
                         <ul class="menu__list">
                             <li class="menu__item">
                                 <a href="#" class="menu__link">О НАС</a>
@@ -71,6 +76,8 @@
             </div>
         </div>
     </header>
+
+
     <main class="main">
         <section class="about">
             <div class="container">
@@ -117,15 +124,15 @@
                                 </td>
                             </tr>
                             <tr class="about__table-tr">
-                                <td class="about__title-td">1 <span>час</span></td>
-                                <td class="about__title-td">80 <span>км</span></td>
-                                <td class="about__title-td">
+                                <td aria-label="время в пути" class="about__title-td">1 <span>час</span></td>
+                                <td aria-label="расстояние" class="about__title-td">80 <span>км</span></td>
+                                <td aria-label="в невесомости" class="about__title-td">
                                     4-5 <span>мин</span>
                                 </td>
-                                <td class="about__title-td">
+                                <td aria-label=" стоимость" class="about__title-td">
                                     250 <span>тыс. дол</span>
                                 </td>
-                                <td class="about__title-td">
+                                <td aria-label="вернешься?" class="about__title-td">
                                     99 <span>%</span>
                                 </td>
                             </tr>
@@ -178,15 +185,15 @@
                                 </td>
                             </tr>
                             <tr class="about__table-tr">
-                                <td class="about__title-td">10 <span>час</span></td>
-                                <td class="about__title-td">100<span>км</span></td>
-                                <td class="about__title-td">
+                                <td aria-label="время в пути" class="about__title-td">10 <span>час</span></td>
+                                <td aria-label="расстояние" class="about__title-td">100<span>км</span></td>
+                                <td aria-label="в невесомости" class="about__title-td">
                                     4-5 <span>мин</span>
                                 </td>
-                                <td class="about__title-td">
+                                <td aria-label="расстояние" class="about__title-td">
                                     250 <span>тыс. дол</span>
                                 </td>
-                                <td class="about__title-td">
+                                <td aria-label="расстояние" class="about__title-td">
                                     99 <span>%</span>
                                 </td>
                             </tr>
@@ -241,15 +248,15 @@
                                 </td>
                             </tr>
                             <tr class="about__table-tr">
-                                <td class="about__title-td">150<span>дней</span></td>
-                                <td class="about__title-td">55<span>млн км</span></td>
-                                <td class="about__title-td">
+                                <td aria-label="время в пути" class="about__title-td">150<span>дней</span></td>
+                                <td aria-label="расстояние" class="about__title-td">55<span>млн км</span></td>
+                                <td aria-label="в невесомости" class="about__title-td">
                                     много <span>мин</span>
                                 </td>
-                                <td class="about__title-td">
+                                <td aria-label=" стоимость" class="about__title-td">
                                     10 <span>млрд. дол</span>
                                 </td>
-                                <td class="about__title-td">
+                                <td aria-label="время в пути" class="about__title-td">
                                     1 <span>%</span>
                                 </td>
                             </tr>
@@ -320,8 +327,32 @@
                         </g>
                     </svg>
 
-                </div>
 
+                </div>
+                <ul class="how-to__box-list">
+                    <li class="how-to__box-item">
+                        Выбираете программу
+                    </li>
+                    <li class="how-to__box-item">
+                        Оплачиваете
+                    </li>
+                    <li class="how-to__box-item">
+                        Какая-то будет подготовка
+                    </li>
+                    <li class="how-to__box-item">
+                        Садимся. Летим. Невесомость
+                    </li>
+                    <li class="how-to__box-item">
+                        Делаем фото в инстаграм
+                    </li>
+                    <li class="how-to__box-item">
+                        Приземляемся, но это не точно
+                    </li>
+                    <li class="how-to__box-item">
+                        Едим из тюбиков: 5 видов меню на выбор (веган, спорт, безлактозное, безглютеновое,
+                        обычное)
+                    </li>
+                </ul>
             </div>
         </section>
         <section class="to-book">
@@ -395,7 +426,7 @@
             </div>
             <div class="services">
                 <div class="container">
-                    <h2 class="title">
+                    <h2 class="title services__title">
                         Допольнительные <br> услуги
                     </h2>
                     <div class="services__inner">
@@ -436,7 +467,6 @@
                     <div class="slider-inner">
                         <div class="swiper">
                             <div class="swiper-wrapper slider-box">
-                                <!-- Slides -->
                                 <div class="swiper-slide slider__box-item">
                                     <img src="img/slider.jpg" class="slider__box-img">
                                 </div>
@@ -447,7 +477,6 @@
                                     <img src="img/slider.jpg" class="slider__box-img">
                                 </div>
                             </div>
-                            <!-- If we need pagination -->
                             <div class="swiper-button-prev">
                                 <img src="img/Arrow 2.svg" alt="">
                             </div>
